@@ -725,6 +725,7 @@ function pollVerifyQrCode(csrfToken) {
     return;
   }
 
+
   $.ajax({
     url: '/login?operation=verify-qrcode-status',
     type: "POST",
